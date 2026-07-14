@@ -1,0 +1,89 @@
+@font-face {
+    font-family: poppins-reg;
+    src: url(./../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins-light;
+    src: url(./../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: poppins-medium;
+    src: url(./../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url(./../fonts/Poppins-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.login-box {
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 450px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px #000;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 70px;
+}
+
+h2 {
+    font-family: poppins-bold;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+p {
+    font-family: poppins-light;
+    font-size: 13px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+label {
+    font-family: poppins-reg;
+    font-size: 15px;
+
+}
+
+input {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: poppins-reg;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-family: poppins-reg;
+    font-size: 15px;
+    background: linear-gradient(to right, #0058ca, #003172);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    margin: 10px 0;
+}
